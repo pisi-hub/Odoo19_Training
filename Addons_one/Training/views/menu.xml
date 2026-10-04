@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+    <!-- Main Menu -->
+    <menuitem
+        id="menu_training_root"
+        name="Training"
+        sequence="10"
+    />
+
+
+    <!-- Training Menu -->
+    <menuitem
+        id="menu_training"
+        name="Trainings"
+        parent="menu_training_root"
+        action="action_training"
+        sequence="10"
+    />
+
+</odoo>
